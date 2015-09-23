@@ -1626,7 +1626,7 @@
             $(_.$slideTrack).children().on('click.slick', _.selectHandler);
         }
 
-        _.setSlideClasses(0);
+        _.setSlideClasses(_.currentSlide);
 
         _.setPosition();
 
